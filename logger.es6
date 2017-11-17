@@ -1,4 +1,4 @@
-/* ES6 Code */
+/* ES6 Code
 let checkName = (firstName, lastName) => {
 	if (firstName != "nader" || lastName !== "dabit") {
 		console.log('Intrusion');
@@ -7,4 +7,4 @@ let checkName = (firstName, lastName) => {
 	}
 }
 
-checkName('nader','jackson');
+checkName('nader','jackson');*/

@@ -4,6 +4,13 @@ module.exports = {
 		filename: "bundle.js"
 	},
 	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				loader: 'jshint-loader'
+			}
+		],
 		loaders: [
 			{
 				test: /\.es6$/,
